@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
-'''Task 7's module.
-'''
-from typing import Union, Tuple
+
+"""
+Utilize type notations
+"""
+
+from typing import List, Tuple, Union
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-        '''Converts a key and its value to a tuple of the key and
-            the square of its value.
-                '''
-                    return (k, float(v**2))
+    """
+    Utilize type notations
+
+    Parameters:
+        k (str): The input string.
+        v (Union[int, float]): The input value, either an int or a float.
+
+    Returns:
+        Tuple[str, float]: with string `k` and the square of `v`.
+    """
+
+    return k, v**2
