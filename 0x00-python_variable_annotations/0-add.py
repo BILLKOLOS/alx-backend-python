@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-'''Modules of task-0.
-'''
+
+"""
+Utilize type notations
+"""
 
 
 def add(a: float, b: float) -> float:
-        '''Adds two floating-point numbers.
-            '''
-                return a + b
+    """
+    Functions receives arguements of type int
+    Return: a float
+    """
+
+    return (a + b)
